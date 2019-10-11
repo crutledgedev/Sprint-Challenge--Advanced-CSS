@@ -167,8 +167,9 @@ p {
   display: flex;
   flex-direction: column;
   background: #f4f4f4;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 15px;
 }
 .navigation-container .title {
   text-align: center;
@@ -181,7 +182,6 @@ p {
   justify-content: space-around;
   align-items: center;
   padding-top: 2%;
-  padding-bottom: 1%;
   margin-left: 30%;
   margin-right: 30%;
 }
@@ -189,6 +189,7 @@ p {
   display: inline-block;
   width: auto;
   font-size: 1.5rem;
+  color: #23293B;
 }
 footer {
   color: #22283B;
@@ -205,6 +206,9 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro .banner img {
+  border-radius: 10px;
 }
 .home .space-images {
   display: flex;
@@ -241,6 +245,18 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .btn {
+  display: block;
+  background-color: #22283A;
+  cursor: pointer;
+  color: #F6F7F8;
+  width: 100px;
+  height: 40px;
+  font-size: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
 }
 .home .walk .walk-img {
   width: 46%;
