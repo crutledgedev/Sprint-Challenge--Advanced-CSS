@@ -34,13 +34,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+A responsive website adjusts the display properties and layout to accomodate a better viewing experience on different size screens.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means you build the site functionality and appearance for the smallest screen firsts, and then make adjustments to scale the layout for larger screens. Desktop first is the reverse of that, coding for higher resolution displays and then making adjustments as you scale down. 
+
+Mobile first = min-width media queries
+Desktop first = max-width media queries
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-4. How would you describe preprocessing to someone new to CSS?
+allows us to use a base 10 multiplier when setting font sizes as the default font-size is typically 16px so 1rem should equal 10ox in most circumstances. More than that, it allows us to set a relationship in the size disparity between fonts of different scale regardless of the default or customized behaivor of a displays settings. 2rem will always be double that of 1rem etc. 
+
+4. How would you describe preprocessing to someone new to CSS? 
+
+Preprocessing allows you to code CSS with a more robust and cleaner syntax. It allows logical nesting as opposed to strict pathways to be declared. Also alows the creation of re-usable pieaces of code, and variable function style writing not typically available in CSS. 
+
+Use it. You'll love it.  
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept is logical nesting instead of required absolute pathways. I also like the ability to create mixins and variables. 
+
+What gave me trouble was adjustijng to the different work-flow at first. Typical any time you make changes to syntax and add multiple coding files, it should be expected to have a learning curve. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
