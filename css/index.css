@@ -1,3 +1,6 @@
+.none {
+  display: none;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -286,6 +289,7 @@ footer {
   border-radius: 10px;
   text-align: center;
   padding-top: 10px;
+  transition: 0.7s;
 }
 .home .walk .btn:hover {
   background-color: #ff6500;
